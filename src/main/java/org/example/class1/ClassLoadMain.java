@@ -6,7 +6,7 @@ package org.example.class1;
 public class ClassLoadMain {
 
     public static void main(String[] args) {
-        String path = "D:/github/Java0/example/target/classes";
+        String path = "D:/github/Java0/target/classes";
         ClassLoader1 loader1 = new ClassLoader1(path);
 //        ClassLoader1 loader2 = new ClassLoader1(path);
         ClassLoader2 loader2 = new ClassLoader2(path);
